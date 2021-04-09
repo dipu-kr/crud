@@ -7,7 +7,7 @@ include 'header.php';
          <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
            <div class="update-group">
            <label for="">Id</label>
-           <input type="text" name="sid" class="update-control">
+           <input type="text" name="sid" class="update-control" placeholder="Enter id for updation">
            <input type="submit" value="show" name="showbtn" class="btn1">
            </div>
          </form>

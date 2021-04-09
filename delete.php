@@ -19,7 +19,7 @@ if(isset($_POST['deletebtn'])){
          <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
            <div class="delete-group">
            <label for="">Id</label>
-           <input type="text" name="sid" class="delete-control">
+           <input type="text" name="sid" class="delete-control" placeholder="Enter id for deletion">
            <input type="submit" value="delete" name="deletebtn" class="btn3">
            </div>
          </form>
